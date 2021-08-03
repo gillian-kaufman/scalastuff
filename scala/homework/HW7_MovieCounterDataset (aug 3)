@@ -1,0 +1,29 @@
+//HW7
+
+import org.apache.spark.sql._
+import org.apache.log4j._
+import org.apache.spark.sql.types.{IntegerType, LongType, StructType}
+
+//Count up how many of each star rating exists in the MovieLens 100K data set.
+
+// Create case class with schema of u.data
+// userID: Int, movieID: Int, rating: Int, timestamp: Long
+
+  
+// Create schema when reading u.data
+    
+// Load up the data into spark dataset
+// Use tab as separator "\t", 
+// load schema from userRatingsSchema and 
+// force case class to read it as dataset
+  
+
+// Select only ratings column
+// (The file format is userID, movieID, rating, timestamp)
+
+// Count up how many times each value (rating) occurs using grougBy and count
+    
+// Sort the resulting dataset by count column
+  
+// Print results from the dataset
+    

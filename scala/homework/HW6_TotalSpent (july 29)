@@ -1,0 +1,31 @@
+// HOMEWORK 6 
+
+// dataset for this homework is customer-orders.csv
+
+//in this homework, we will use sql function in the dataset to
+//compute the total amount spent per customer in the e-commerce data
+
+//declare case class called CustomerOrders
+//case class defines schema of dataset
+//each field of case class defines column name and column type of the dataset
+ 
+
+// Create schema using StructType object  when reading customer-orders.csv
+// since this file does not have header line
+    
+
+// Load up the data into spark dataset
+// Use default separator (,), load schema from customerOrdersSchema and
+// force case class to read it as dataset
+    
+
+//we will group by customer id and calculate total spent per customer id
+//hint sum() can be used to add things up
+//agg(round(sum(...),2) sums and rounds the result
+   
+
+//sort by total_spent
+    
+
+//show the complete results
+    
